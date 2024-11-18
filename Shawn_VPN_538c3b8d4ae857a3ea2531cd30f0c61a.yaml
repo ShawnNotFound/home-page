@@ -1,0 +1,90 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+hosts:
+  time.facebook.com: 17.253.84.125
+  time.android.com: 17.253.84.125
+dns:
+  enable: true
+  use-hosts: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+    - tcp://223.5.5.5
+    - tcp://223.6.6.6
+    - tls://dns.google:853
+    - tls://8.8.8.8:853
+    - tls://8.8.4.4:853
+    - tls://dns.alidns.com
+    - tls://223.5.5.5
+    - tls://223.6.6.6
+    - tls://dot.pub
+    - tls://1.12.12.12
+    - tls://120.53.53.53
+    - https://dns.google/dns-query
+    - https://8.8.8.8/dns-query
+    - https://8.8.4.4/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://223.5.5.5/dns-query
+    - https://223.6.6.6/dns-query
+    - https://doh.pub/dns-query
+    - https://1.12.12.12/dns-query
+    - https://120.53.53.53/dns-query
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+    - tcp://119.29.29.29
+    - tcp://223.5.5.5
+    - tcp://223.6.6.6
+proxies:
+  - {name: 🇭🇰 香港Y01, server: ukusw-g03.hk01-ae5.entry.v50307shvkaa.art, port: 19273, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y01 | x0.8, server: 3hoa8-g03.jp01-ae5.entry.v50307shvkaa.art, port: 474, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y02 | IEPL, server: 9hatt-g03.hk02-ae5.entry.v50307shvkaa.art, port: 14561, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y02 | x0.8, server: wrhrd-g03.jp02-ae5.entry.v50307shvkaa.art, port: 484, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y03 | IEPL, server: 2aifw-g03.hk03-ae5.entry.v50307shvkaa.art, port: 761, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y03 | x0.8, server: imj74-g03.jp03-ae5.entry.v50307shvkaa.art, port: 489, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y04 | IEPL, server: o567v-g03.hk04-ae5.entry.v50307shvkaa.art, port: 805, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y04 | x0.8, server: xvo4j-g03.jp04-ae5.entry.v50307shvkaa.art, port: 494, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y05 | IEPL, server: 8zcre-g03.hk05-ae5.entry.v50307shvkaa.art, port: 1813, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y05 | 下载专用 | x0.01, server: mc5ou-g03.jp05-vm5.entry.rtysjur.quest, port: 64656, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Y06 | x0.8, server: 4fipy-g03.hk06-ae5.entry.v50307shvkaa.art, port: 1414, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y06 | 下载专用 | x0.01, server: m3t40-g03.jp06-vm5.entry.rtysjur.quest, port: 664, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Y07 | x0.8, server: g4nu5-g03.hk07-ae5.entry.v50307shvkaa.art, port: 1421, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y07 | x0.8, server: umlhe-g03.jp07-ae5.entry.v50307shvkaa.art, port: 14006, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y08 | x0.8, server: a03yx-g03.hk08-ae5.entry.v50307shvkaa.art, port: 18644, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y08 | x0.8, server: j4shu-g03.jp08-ae5.entry.v50307shvkaa.art, port: 12544, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y09 | IEPL, server: vuy9q-g03.hk09-vm5.entry.v50307shvkaa.art, port: 15266, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本Y09 | x0.8, server: 42suy-g03.jp09-ae5.entry.v50307shvkaa.art, port: 11159, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y10 | IEPL, server: hhhdo-g03.hk10-vm5.entry.v50307shvkaa.art, port: 13484, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bgp-01-10.entry-0.chinasnow.net}}, udp: true}
+  - {name: 🇯🇵 日本Y10 | x0.8, server: 74e62-g03.jp10-ae5.entry.v50307shvkaa.art, port: 16525, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇭🇰 香港Y11 | IEPL, server: nz1nf-g03.hk11-vm5.entry.v50307shvkaa.art, port: 576, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tutorial/iphone13.m3u8, headers: {Host: bgp-01-11.entry-0.chinasnow.net}}, udp: true}
+  - {name: 🇯🇵 日本Y11 | x0.8, server: nvjq3-g03.jp11-ae5.entry.v50307shvkaa.art, port: 17742, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 日本Y12 | IEPL | 测试, server: o2ds8-g03.jp12-ae5.entry.v50307shvkaa.art, port: 499, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇸🇬 新加坡Y01, server: pxlpu-g03.sg01-ae5.entry.v50307shvkaa.art, port: 20001, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇸🇬 新加坡Y02, server: h5xba-g03.sg02-ae5.entry.v50307shvkaa.art, port: 20076, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇨🇳 台湾Y01 | IEPL | x2, server: m0umq-g03.tw01-ae5.entry.v50307shvkaa.art, port: 20006, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇺🇲 美国Y01, server: 6nc8q-g03.us01-ae5.entry.v50307shvkaa.art, port: 20011, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇺🇲 美国Y02, server: kjs27-g03.us02-ae5.entry.v50307shvkaa.art, port: 20016, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇬🇧 英国Y01, server: gsdch-g03.gb01-ae5.entry.v50307shvkaa.art, port: 20021, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇦🇷 阿根廷Y01, server: 9ad5l-g03.ar01-ae5.entry.v50307shvkaa.art, port: 20026, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇷🇺 俄罗斯Y01, server: zi1tl-g03.ru01-ae5.entry.v50307shvkaa.art, port: 20031, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇹🇷 土耳其Y01, server: 3gx52-g03.tr01-ae5.entry.v50307shvkaa.art, port: 20036, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇰🇷 韩国Y01, server: j1gay-g03.kr01-ae5.entry.v50307shvkaa.art, port: 20041, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇮🇳 印度Y01, server: k2vee-g03.in01-ae5.entry.v50307shvkaa.art, port: 20046, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇩🇪 德国Y01, server: nj5lk-g03.de01-ae5.entry.v50307shvkaa.art, port: 20051, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇨🇦 加拿大Y01, server: ox0h6-g03.ca01-ae5.entry.v50307shvkaa.art, port: 20056, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇦🇺 澳大利亚Y01, server: dzric-g03.au01-ae5.entry.v50307shvkaa.art, port: 20061, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇫🇷 法国Y01, server: ugien-g03.fr01-ae5.entry.v50307shvkaa.art, port: 20066, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇺🇦 乌克兰Y01, server: nz4wv-g03.ua01-ae5.entry.v50307shvkaa.art, port: 20071, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
+  - {name: 🇯🇵 免费-日本1-Ver.6, server: 9bri7-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本2-Ver.7, server: hb1lf-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本3-Ver.6, server: b9mrj-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本4-Ver.7, server: qulyc-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本5-Ver.8, server: ywiny-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本6-Ver.7, server: ikwgp-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本7-Ver.1, server: 84o22-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: fa
