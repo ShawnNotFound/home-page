@@ -81,13 +81,6 @@ proxies:
   - {name: 🇦🇺 澳大利亚Y01, server: dzric-g03.au01-ae5.entry.v50307shvkaa.art, port: 20061, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
   - {name: 🇫🇷 法国Y01, server: ugien-g03.fr01-ae5.entry.v50307shvkaa.art, port: 20066, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
   - {name: 🇺🇦 乌克兰Y01, server: nz4wv-g03.ua01-ae5.entry.v50307shvkaa.art, port: 20071, type: ss, cipher: aes-256-gcm, password: 2f77866b-06ba-34f3-a238-79a3827b1d38, udp: true}
-  - {name: 🇯🇵 免费-日本1-Ver.6, server: 9bri7-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本2-Ver.7, server: hb1lf-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本3-Ver.6, server: b9mrj-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本4-Ver.7, server: qulyc-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本5-Ver.8, server: ywiny-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本6-Ver.7, server: ikwgp-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本7-Ver.1, server: 84o22-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 2f77866b-06ba-34f3-a238-79a3827b1d38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -131,13 +124,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚Y01
       - 🇫🇷 法国Y01
       - 🇺🇦 乌克兰Y01
-      - 🇯🇵 免费-日本1-Ver.6
-      - 🇯🇵 免费-日本2-Ver.7
-      - 🇯🇵 免费-日本3-Ver.6
-      - 🇯🇵 免费-日本4-Ver.7
-      - 🇯🇵 免费-日本5-Ver.8
-      - 🇯🇵 免费-日本6-Ver.7
-      - 🇯🇵 免费-日本7-Ver.1
       - DIRECT
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
@@ -201,13 +187,6 @@ proxy-groups:
       - 🇯🇵 日本Y10 | x0.8
       - 🇯🇵 日本Y11 | x0.8
       - 🇯🇵 日本Y12 | IEPL | 测试
-      - 🇯🇵 免费-日本1-Ver.6
-      - 🇯🇵 免费-日本2-Ver.7
-      - 🇯🇵 免费-日本3-Ver.6
-      - 🇯🇵 免费-日本4-Ver.7
-      - 🇯🇵 免费-日本5-Ver.8
-      - 🇯🇵 免费-日本6-Ver.7
-      - 🇯🇵 免费-日本7-Ver.1
       - 🇭🇰 香港Y01
       - 🇭🇰 香港Y02 | IEPL
       - 🇭🇰 香港Y03 | IEPL
